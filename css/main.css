@@ -1,0 +1,29 @@
+:root {
+  --primary-color:#ffe6a7;
+  --secundary-color: #99582a;
+  --color-red:#ae2012;
+}
+
+#topbar{
+  background-color: #ffe6a7;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+
+}
+
+.navbar{
+  background-color: #99582a;
+}
+
+
+footer {
+  background-color: #99582a;
+  color: white;
+  padding: 20px;
+  
+}
+  
+
+
+
