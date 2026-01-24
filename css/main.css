@@ -6,10 +6,17 @@
 
 #topbar{
   background-color: #ffe6a7;
+  font-family: "Gravitas One", serif;
   color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
   padding: 20px;
 
+}
+
+#topbar .iconos{
+  color: #99582a;
+  font-size: 1.5rem;
+  
 }
 
 .navbar{
