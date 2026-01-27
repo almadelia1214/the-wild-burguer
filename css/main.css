@@ -2,6 +2,7 @@
   --primary-color:#ffe6a7;
   --secundary-color: #99582a;
   --color-red:#ae2012;
+  --color-marillo: #ffba08;
 }
 
 #topbar{
@@ -19,8 +20,50 @@
   
 }
 
+#sliderHero .carousel-item {
+    height: 250px;
+}
+
+#sliderHero .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    #sliderHero .carousel-item {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #sliderHero .carousel-item {
+        height: 700px;
+    }
+}
+
+
 .navbar{
   background-color: #99582a;
+}
+
+.btn-naranja{
+  background-color: #99582a;
+  color: white;
+}
+
+.btn-naranja:hover{
+  background-color: #ae2012;
+  color: white;
+}
+
+.btn-amarillo{
+  background-color: #ffba08;
+  color: black;
+}
+
+.btn-amarillo:hover{
+  background-color: #99582a;
+  color: white;
 }
 
 
