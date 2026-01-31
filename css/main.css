@@ -77,6 +77,28 @@
   font-weight: bold;
 }
 
+.titulo-productos{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.titulo-productos::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #dc3545;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.btn-danger{
+  border-radius: 50px;
+  padding: 10px 50px;
+}
+
   
 footer{
   background-color: #99582a;
